@@ -1,0 +1,323 @@
+/*menus*/
+    .menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+#menu{
+	display: none;
+}
+
+    li{
+      display: inline;
+    }
+
+#logo
+{
+	width: 9em;
+	height: 4em;
+}
+
+
+li a {
+  padding: 8px;
+  text-decoration: none;
+  color: grey;
+  padding: 1%;
+}
+
+li a:hover{
+  color:#28C8CE;
+}
+
+@media screen and (min-width: 900px){
+.hamburguesa{
+	display: none;
+}
+	.logo-movil{
+		display: none;
+	}
+	
+
+}
+
+.ayb{
+	background-image: url("../img/ayb.jpg");
+		 background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+	margin: 1%;
+}
+
+.cuidado{
+	background-image: url("../img/cuidado.jpg");
+	 background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+	margin: 1%;
+}
+
+.limpieza{
+	background-image: url("../img/limpieza.jpg");
+	 background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+	margin: 1%;
+}
+
+.frascos{
+	background-image: url("../img/frascos.jpg");
+	 background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+	margin: 1%;
+}
+
+.ayb{
+	background-image: url("../img/ayb.jpg");
+	 background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.cuidado{
+	background-image: url("../img/cuidado.jpg");
+	 background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.frascos{
+	background-image: url("../img/frascos.jpg");
+	 background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.cuidado{
+	background-image: url("../img/cuidado.jpg");
+	 background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.contenedor{
+	padding: 10%;
+}
+.banner-home{
+	background-image: url("../img/banner-home.jpg");
+	 background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.banner-eventos{
+	background-image: url("../img/eventos.jpg");
+	 background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+	text-align: center;
+	margin-bottom: 2.5%;
+	height: 300px;
+	margin-top: 7%;
+}
+.titulos-categorias{
+	    padding: 30%;
+    text-align: center;
+    color: black;
+	margin: 0px;
+}
+
+.categorias{
+	padding-bottom: 20%;
+}
+
+.eventos{
+	padding-top: 5%;
+	color: black;
+	font-size: 3em;
+}
+
+.campo-suscripcion{
+	    float: right;
+    margin-top: -20%;
+}
+
+footer{
+	background-color: #20945a;
+	height: 200px;
+}
+
+.footer-tienda{
+	color: white;
+	
+}
+
+.lista-footer{
+	font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+	color: white;
+}
+
+.footer-columnas{
+	margin-left: 25px;
+	margin-top: 3%;
+}
+
+p
+{
+	color: whitesmoke;
+	font-family: 'Rubik', sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+}
+h1 {
+	color: black;
+	font-family: 'Rubik', sans-serif;
+}
+
+.TL
+{
+	color: #20945a;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	font-size: 5em;	
+}
+
+h2{
+	font-family: 'Rubik', sans-serif;
+}
+
+h3{
+	font-family: 'Rubik', sans-serif;
+}
+h4{
+	font-family: 'Rubik', sans-serif;
+	text-decoration: underline;
+}
+
+p{
+	font-family: 'Rubik', sans-serif;
+}
+
+li{
+	font-family: 'Rubik', sans-serif;
+}
+
+.lista-footer{
+	font-family: 'Rubik', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+input{
+	padding: 10px 20px;
+	font-family: 'Rubik', sans-serif;
+}
+
+
+button{
+	    background-color: white;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    padding: 1% 2%;
+    border: none;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 10px;
+}
+
+button a {
+	color: black;
+}
+
+button .suscribirte{
+	background-color: black;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding: 1%;
+    border: none;
+    font-size: 14px;
+    font-weight: 100;
+	
+}
+
+.precio
+{
+	font-size: 1.5em;
+	font-family: 'Rubik', sans-serif;
+	color: #20945a;
+}
+
+.nombre-producto
+{
+	font-size: 1.5em;
+	font-family: 'Rubik', sans-serif;
+	color: grey;
+	padding-bottom: 0;
+}
+
+.filtro
+{
+	font-size: .75em;
+	font-family: 'Rubik', sans-serif;
+	color: #20945a;
+}
+
+
+.mostrar-productos{
+	float: right;
+	margin-top: -2%;
+}
+
+
+.filtros{
+	background-color: #F5F5F5;
+	margin-bottom: 500px;
+	color: #20945a;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	
+}
+
+.footer2{
+	margin-top: 1500px;
+}
+
+.columna-filtros{
+	padding: 25px;
+	color: #20945a;
+	font-family: 'Rubik', sans-serif;
+	font-size: 2em;
+}
+
+.productos-catalogo{
+	color: #20945a;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	font-size: 5em;	
+}
+
+.filtro{
+	border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.productos{
+	padding-left: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 23%; float: left;}
+.col-4 {width: 23%; float: left}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
